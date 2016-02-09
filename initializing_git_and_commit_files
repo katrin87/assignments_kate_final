@@ -1,0 +1,171 @@
+katrin87@katrin87:~/PycharmProjects/assignments_kate_final$ git remote add origin git@github.com:katrin87/assignments_kate_final.git
+katrin87@katrin87:~/PycharmProjects/assignments_kate_final$ ls
+lesson4.py
+katrin87@katrin87:~/PycharmProjects/assignments_kate_final$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   .idea/.name
+	new file:   .idea/assignments_kate_final.iml
+	new file:   .idea/encodings.xml
+	new file:   .idea/misc.xml
+	new file:   .idea/modules.xml
+	new file:   .idea/workspace.xml
+	new file:   lesson4.py
+
+katrin87@katrin87:~/PycharmProjects/assignments_kate_final$ git add lesson4.py
+katrin87@katrin87:~/PycharmProjects/assignments_kate_final$ git commit -m "Initial commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'katrin87@katrin87.(none)')
+katrin87@katrin87:~/PycharmProjects/assignments_kate_final$ cd
+katrin87@katrin87:~$ apt-get install git
+E: Could not open lock file /var/lib/dpkg/lock - open (13: Permission denied)
+E: Unable to lock the administration directory (/var/lib/dpkg/), are you root?
+katrin87@katrin87:~$ cd ..
+katrin87@katrin87:/home$ apt-get install git
+E: Could not open lock file /var/lib/dpkg/lock - open (13: Permission denied)
+E: Unable to lock the administration directory (/var/lib/dpkg/), are you root?
+katrin87@katrin87:/home$ sudo apt-get install git
+[sudo] password for katrin87:
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+git is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 45 not upgraded.
+katrin87@katrin87:/home$ git config --global user.name "katrin87"
+katrin87@katrin87:/home$ git config --global user.email "katriell@mail.ru"
+katrin87@katrin87:/home$ cd assignments_kate_final
+bash: cd: assignments_kate_final: No such file or directory
+katrin87@katrin87:/home$ cd ..
+katrin87@katrin87:/$ cd '/home/katrin87/PycharmProjects/assignments_kate_final/'
+katrin87@katrin87:~/PycharmProjects/assignments_kate_final$ ls
+lesson4.py
+katrin87@katrin87:~/PycharmProjects/assignments_kate_final$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   .idea/.name
+	new file:   .idea/assignments_kate_final.iml
+	new file:   .idea/encodings.xml
+	new file:   .idea/misc.xml
+	new file:   .idea/modules.xml
+	new file:   .idea/workspace.xml
+	new file:   lesson4.py
+
+katrin87@katrin87:~/PycharmProjects/assignments_kate_final$ git init
+Reinitialized existing Git repository in /home/katrin87/PycharmProjects/assignments_kate_final/.git/
+katrin87@katrin87:~/PycharmProjects/assignments_kate_final$ git commit -m "Commit lesson4"
+[master (root-commit) 9d29561] Commit lesson4
+ 7 files changed, 442 insertions(+)
+ create mode 100644 .idea/.name
+ create mode 100644 .idea/assignments_kate_final.iml
+ create mode 100644 .idea/encodings.xml
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .idea/workspace.xml
+ create mode 100644 lesson4.py
+katrin87@katrin87:~/PycharmProjects/assignments_kate_final$ git status
+On branch master
+nothing to commit, working directory clean
+katrin87@katrin87:~/PycharmProjects/assignments_kate_final$ git remote add origin https://github.com/katrin87/assignments_kate_final.git
+fatal: remote origin already exists.
+katrin87@katrin87:~/PycharmProjects/assignments_kate_final$ git push -u origin master
+The authenticity of host 'github.com (192.30.252.130)' can't be established.
+RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
+Are you sure you want to continue connecting (yes/no)? n
+Please type 'yes' or 'no': no
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+katrin87@katrin87:~/PycharmProjects/assignments_kate_final$ git remote add origin https://github.com/katrin87/assignments_kate_final.git
+fatal: remote origin already exists.
+katrin87@katrin87:~/PycharmProjects/assignments_kate_final$ git remote add origin https://github.com/katrin87/assignments_kate_final.git
+fatal: remote origin already exists.
+katrin87@katrin87:~/PycharmProjects/assignments_kate_final$ git remote add origin https://github.com/katrin87/assignments_kate_final.git
+fatal: remote origin already exists.
+katrin87@katrin87:~/PycharmProjects/assignments_kate_final$ git commit -m "First Commit"
+On branch master
+nothing to commit, working directory clean
+katrin87@katrin87:~/PycharmProjects/assignments_kate_final$ git status
+On branch master
+nothing to commit, working directory clean
+katrin87@katrin87:~/PycharmProjects/assignments_kate_final$ git init
+Reinitialized existing Git repository in /home/katrin87/PycharmProjects/assignments_kate_final/.git/
+katrin87@katrin87:~/PycharmProjects/assignments_kate_final$ git add .
+katrin87@katrin87:~/PycharmProjects/assignments_kate_final$ cd
+katrin87@katrin87:~$ ls
+Desktop    Downloads         Music     Public           Templates
+Documents  examples.desktop  Pictures  PycharmProjects  Videos
+katrin87@katrin87:~$ cd assignments_kate_final
+bash: cd: assignments_kate_final: No such file or directory
+katrin87@katrin87:~$ cd assignments_kate_final/
+bash: cd: assignments_kate_final/: No such file or directory
+katrin87@katrin87:~$ cd home
+bash: cd: home: No such file or directory
+katrin87@katrin87:~$ cd home/
+bash: cd: home/: No such file or directory
+katrin87@katrin87:~$ '/home/katrin87/PycharmProjects'
+bash: /home/katrin87/PycharmProjects: Is a directory
+katrin87@katrin87:~$ cd '/home/katrin87/PycharmProjects'
+katrin87@katrin87:~/PycharmProjects$ cd 'assignments_kate_final'
+katrin87@katrin87:~/PycharmProjects/assignments_kate_final$ cd
+katrin87@katrin87:~$ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+katrin87@katrin87:~$ mkdir assignments_kate_final
+katrin87@katrin87:~$ cd assignments_kate_final/
+katrin87@katrin87:~/assignments_kate_final$ ls
+katrin87@katrin87:~/assignments_kate_final$ git init
+Initialized empty Git repository in /home/katrin87/assignments_kate_final/.git/
+katrin87@katrin87:~/assignments_kate_final$ git init
+Reinitialized existing Git repository in /home/katrin87/assignments_kate_final/.git/
+katrin87@katrin87:~/assignments_kate_final$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	lesson4.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+katrin87@katrin87:~/assignments_kate_final$ git add lesson4.py
+katrin87@katrin87:~/assignments_kate_final$ git commit -m "First Commit"
+[master (root-commit) d2437ca] First Commit
+ 1 file changed, 92 insertions(+)
+ create mode 100644 lesson4.py
+katrin87@katrin87:~/assignments_kate_final$
+katrin87@katrin87:~/assignments_kate_final$ git remote add origin https://github.com/katrin87/assignments_kate_final.git
+katrin87@katrin87:~/assignments_kate_final$ git push -u origin master
+Username for 'https://github.com': katrin87
+Password for 'https://katrin87@github.com':
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 835 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/katrin87/assignments_kate_final.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+katrin87@katrin87:~/assignments_kate_final$
