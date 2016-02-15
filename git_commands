@@ -1,0 +1,4 @@
+git commands:
+
+rm -r .git   - kill the repository on the local mashine
+
